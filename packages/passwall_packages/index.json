@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "geoview": "0.2.8-r1",
+    "tcping": "0.3-r1"
+  }
+}

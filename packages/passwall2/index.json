@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "luci-app-passwall2": "25.11.2-r1"
+  }
+}
