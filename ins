@@ -1,0 +1,10 @@
+cat > /etc/apk/repositories.d/ipq807a.list <<'EOF'
+https://raw.githubusercontent.com/raskil5/ipq807a/main/packages/base/packages.adb
+https://raw.githubusercontent.com/raskil5/ipq807a/main/packages/luci/packages.adb
+https://raw.githubusercontent.com/raskil5/ipq807a/main/packages/packages/packages.adb
+https://raw.githubusercontent.com/raskil5/ipq807a/main/packages/passwall2/packages.adb
+https://raw.githubusercontent.com/raskil5/ipq807a/main/packages/passwall_packages/packages.adb
+https://raw.githubusercontent.com/raskil5/ipq807a/main/kmods/packages.adb
+EOF
+apk --allow-untrusted update
+apk --allow-untrusted add xray-core luci-app-passwall2
